@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the login form */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto; /* Centering */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+label {
+    display: block; /* Makes labels take full width */
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full-width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 3px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full-width button */
+    padding: 10px;
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Increase font size */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+    color: red; /* Red for error messages */
+    text-align: center; /* Center align */
+    margin-top: 10px; /* Space above */
+}
